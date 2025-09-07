@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: adijaiswal/backend:694535bf15cb7328bd153687abca4167a3fd083a
+          image: adijaiswal/backend:d30405cc9954767802c24c6ba37bb02d48997a68
           ports:
             - containerPort: 5000
           env:
