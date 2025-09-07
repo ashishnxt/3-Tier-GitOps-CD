@@ -33,5 +33,5 @@ spec:
         backend:
           service: { name: frontend-svc, port: { number: 80 } }
   tls:
-  - hosts: [adityajaiswal.com, www.adityajaiswal.com]
+  - hosts: [redspace.in]
     secretName: adityajaiswal-com-tls   # <-- consistent, .com
